@@ -1,0 +1,79 @@
+﻿<controls:MetroWindow x:Class="ControlVacuna.UI.FrmModElimVacuna"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"  
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:behaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
+        Title="Mantenimiento de Vacuna" Background="DeepSkyBlue" WindowStartupLocation="CenterScreen" Height="446.256" Width="783.237" Loaded="MetroWindow_Loaded_1" Icon="imgs/Injection2.png">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/FlatButton.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.AnimatedTabControl.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.AnimatedSingleRowTabControl.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/FlatButton.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/FlatSlider.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
+                <!--<ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Brown.xaml" />-->
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Label Content="Id:" HorizontalAlignment="Left" Margin="46,43,0,0" FontSize="11" VerticalAlignment="Top" FontFamily="Castellar"/>
+        <Label Content="Fecha:" HorizontalAlignment="Left" Margin="46,128,0,0" FontSize="11" VerticalAlignment="Top" FontFamily="Castellar"/>
+        <Label Content="Descripción:" HorizontalAlignment="Left" Margin="368,128,0,0" FontSize="11" VerticalAlignment="Top" FontFamily="Castellar"/>
+        <TextBox BorderBrush="Chocolate" x:Name="txtDescripcion" HorizontalAlignment="Left" Height="86" Margin="481,112,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="244">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <TextBox BorderBrush="Chocolate" x:Name="txtId" HorizontalAlignment="Left" Height="23" Margin="109,40,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="92">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <Label Content="Cantidad:" HorizontalAlignment="Left" Margin="382,46,0,0" FontSize="11" VerticalAlignment="Top" FontFamily="Castellar"/>
+        <TextBox BorderBrush="Chocolate" x:Name="txtCantidad" controls:TextBoxHelper.Watermark="0.00" HorizontalAlignment="Left" Height="23" Margin="481,43,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75" PreviewKeyDown="txtCantidad_PreviewKeyDown">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <Button x:Name="btnModificar" Content="" HorizontalAlignment="Left" Margin="316,311,0,0" VerticalAlignment="Top" Width="94" Height="68" Click="btnModificar_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="imgs/actualizar.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnEliminar" HorizontalAlignment="Left" Margin="508,311,0,0" VerticalAlignment="Top" Width="92" Height="67" Click="btnEliminar_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="imgs/eliminar.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnBuscar" Content="" HorizontalAlignment="Left" Margin="126,310,0,0" VerticalAlignment="Top" Width="94" Height="68" Click="btnBuscar_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="imgs/encontrar.png"/>
+            </Button.Background>
+        </Button>
+        <DatePicker x:Name="dpFecha" BorderBrush="Chocolate"  HorizontalAlignment="Left" Margin="109,128,0,0" VerticalAlignment="Top" Width="190">
+            <DatePicker.Effect>
+                <DropShadowEffect/>
+            </DatePicker.Effect>
+        </DatePicker>
+        <Label Content="CC" HorizontalAlignment="Left" Margin="571,46,0,0" VerticalAlignment="Top" FontFamily="Castellar"/>
+        <Label Content="Paciente:" HorizontalAlignment="Left" Margin="27,206,0,0" FontSize="11" VerticalAlignment="Top" FontFamily="Castellar"/>
+        <TextBox BorderBrush="Chocolate" x:Name="txtNombrePacient" HorizontalAlignment="Left" Height="23" Margin="109,203,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <Button x:Name="btnBuscarPacient" Content="" HorizontalAlignment="Left" Margin="316,206,0,0" VerticalAlignment="Top" Width="51" Height="28" Click="btnBuscarPacient_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="imgs/encontrar.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</controls:MetroWindow>

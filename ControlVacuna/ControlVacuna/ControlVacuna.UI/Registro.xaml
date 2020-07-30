@@ -1,0 +1,67 @@
+﻿    <controls:MetroWindow x:Class="ControlVacuna.UI.Registro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"  
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:behaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
+        Title="Registro" Background="DeepSkyBlue" WindowStartupLocation="Manual"  Height="462.406" Width="765.857" Loaded="MetroWindow_Loaded_1" Icon="imgs/login.png">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/FlatButton.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.AnimatedTabControl.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.AnimatedSingleRowTabControl.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/FlatButton.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/FlatSlider.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Brown.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Label Content="Nombre:" HorizontalAlignment="Left" Margin="176,20,0,0" VerticalAlignment="Top" FontFamily="Castellar"/>
+        <Label Content="Apellido:" HorizontalAlignment="Left" Margin="170,69,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.321,0.338" FontFamily="Castellar"/>
+        <Label Content="Nick:" HorizontalAlignment="Left" Margin="186,116,0,0" VerticalAlignment="Top" FontFamily="Castellar"/>
+        <Label Content="Contraseña:" HorizontalAlignment="Left" Margin="159,161,0,0" VerticalAlignment="Top" FontFamily="Castellar"/>
+        <TextBox BorderBrush="Chocolate" x:Name="txtNombre" HorizontalAlignment="Left" Height="23" Margin="312,21,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="231">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <TextBox BorderBrush="Chocolate" x:Name="txtApellido" HorizontalAlignment="Left" Height="23" Margin="312,69,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="231">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <TextBox BorderBrush="Chocolate" x:Name="txtNick" HorizontalAlignment="Left" Height="23" Margin="312,117,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="185">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <PasswordBox controls:TextBoxHelper.ClearTextButton="True" controls:TextBoxHelper.Watermark="Escriba Contraseña" BorderBrush="Chocolate" x:Name="txtPass" HorizontalAlignment="Left" Margin="312,161,0,0" VerticalAlignment="Top" Width="185">
+            <PasswordBox.Effect>
+                <DropShadowEffect/>
+            </PasswordBox.Effect>
+        </PasswordBox>
+        <Label Content="Confirmar Contraseña:" HorizontalAlignment="Left" Margin="90,222,0,0" VerticalAlignment="Top" FontFamily="Castellar"/>
+        <PasswordBox controls:TextBoxHelper.ClearTextButton="True" controls:TextBoxHelper.Watermark="Confirmar Contraseña" BorderBrush="Chocolate" x:Name="txtConfirmar" HorizontalAlignment="Left" Margin="311,222,0,0" VerticalAlignment="Top" Width="186">
+            <PasswordBox.Effect>
+                <DropShadowEffect/>
+            </PasswordBox.Effect>
+        </PasswordBox>
+        <Button x:Name="btnGuardar" Content="" HorizontalAlignment="Left" Margin="234,341,0,0" VerticalAlignment="Top" Width="94" Height="67" Click="btnGuardar_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="imgs/Save.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnSalir" HorizontalAlignment="Left" Margin="450,341,0,0" VerticalAlignment="Top" Width="93" Height="67" Click="btnsalir_Click">
+        <Button.Background>
+                <ImageBrush ImageSource="imgs/Exit.png"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</controls:MetroWindow>

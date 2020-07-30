@@ -1,0 +1,94 @@
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\bin\Debug\ControlVacuna.UI.exe.config
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\bin\Debug\ControlVacuna.UI.exe
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\bin\Debug\ControlVacuna.UI.pdb
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\bin\Debug\ControlVacuna.AccesoDatos.dll
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\bin\Debug\ControlVacuna.LogicaDeNegocio.dll
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\bin\Debug\EntityFramework.dll
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\bin\Debug\MahApps.Metro.dll
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\bin\Debug\ControlVacuna.AccesoDatos.pdb
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\bin\Debug\ControlVacuna.LogicaDeNegocio.pdb
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\bin\Debug\EntityFramework.xml
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\bin\Debug\MahApps.Metro.xml
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\ControlVacuna.UI.csprojResolveAssemblyReference.cache
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\BuscarAdministrador.baml
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\BuscarFrasco.baml
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\BuscarVacuna.baml
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\FrmAgregarFrasco.baml
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\FrmAgregarVacuna.baml
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\FrmModElimUsuario.baml
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\FrmModElimVacuna.baml
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\FrmModificarElimarFrasco.baml
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\Login.baml
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\Menu.baml
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\Registro.baml
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\App.baml
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\BuscarAdministrador.g.cs
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\BuscarFrasco.g.cs
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\BuscarVacuna.g.cs
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\FrmAgregarFrasco.g.cs
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\FrmAgregarVacuna.g.cs
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\FrmModElimUsuario.g.cs
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\FrmModElimVacuna.g.cs
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\FrmModificarElimarFrasco.g.cs
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\Login.g.cs
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\Menu.g.cs
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\Registro.g.cs
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\App.g.cs
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\ControlVacuna.UI_MarkupCompile.cache
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\ControlVacuna.UI.g.resources
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\ControlVacuna.UI.Properties.Resources.resources
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\ControlVacuna.UI.csproj.GenerateResource.Cache
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\ControlVacuna.UI.exe
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\ControlVacuna.UI.pdb
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\bin\Debug\ControlVacuna.UI.exe.config
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\bin\Debug\ControlVacuna.UI.exe
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\bin\Debug\ControlVacuna.UI.pdb
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\bin\Debug\ControlVacuna.AccesoDatos.dll
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\bin\Debug\ControlVacuna.LogicaDeNegocio.dll
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\bin\Debug\MahApps.Metro.dll
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\bin\Debug\ControlVacuna.AccesoDatos.pdb
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\bin\Debug\ControlVacuna.LogicaDeNegocio.pdb
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\bin\Debug\MahApps.Metro.xml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\ControlVacuna.UI.csprojResolveAssemblyReference.cache
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\BuscarAdministrador.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\BuscarFrasco.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\BuscarPaciente.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\BuscarVacuna.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\FrmAgregarFrasco.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\FrmAgregarPaciente.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\FrmAgregarVacuna.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\FrmModElimPaciente.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\FrmModElimUsuario.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\FrmModElimVacuna.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\FrmModificarElimarFrasco.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\Login.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\Menu.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\Registro.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\App.baml
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\BuscarAdministrador.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\BuscarFrasco.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\BuscarPaciente.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\BuscarVacuna.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\FrmAgregarFrasco.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\FrmAgregarPaciente.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\FrmAgregarVacuna.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\FrmModElimPaciente.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\FrmModElimUsuario.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\FrmModElimVacuna.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\FrmModificarElimarFrasco.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\Login.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\Menu.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\Registro.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\App.g.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\ControlVacuna.UI_MarkupCompile.cache
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\ControlVacuna.UI.g.resources
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\ControlVacuna.UI.Properties.Resources.resources
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\ControlVacuna.UI.csproj.GenerateResource.Cache
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\ControlVacuna.UI.exe
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\ControlVacuna.UI.pdb

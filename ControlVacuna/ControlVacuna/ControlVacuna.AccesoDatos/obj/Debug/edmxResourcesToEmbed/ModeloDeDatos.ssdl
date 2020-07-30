@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BDControlVacunaModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="BDControlVacunaModelStoreContainer">
+    <EntitySet Name="Administrador" EntityType="BDControlVacunaModel.Store.Administrador" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Frasco" EntityType="BDControlVacunaModel.Store.Frasco" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Paciente" EntityType="BDControlVacunaModel.Store.Paciente" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="BDControlVacunaModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Vacuna" EntityType="BDControlVacunaModel.Store.Vacuna" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Vacuna_Paciente" Association="BDControlVacunaModel.Store.FK_Vacuna_Paciente">
+      <End Role="Paciente" EntitySet="Paciente" />
+      <End Role="Vacuna" EntitySet="Vacuna" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Administrador">
+    <Key>
+      <PropertyRef Name="Id_Administrador" />
+    </Key>
+    <Property Name="Id_Administrador" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="nvarchar" Nullable="false" MaxLength="15" />
+    <Property Name="Apellido" Type="nvarchar" Nullable="false" MaxLength="15" />
+    <Property Name="Nick" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="Pass" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="Confirmar" Type="nvarchar" Nullable="false" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Frasco">
+    <Key>
+      <PropertyRef Name="Id_Frasco" />
+    </Key>
+    <Property Name="Id_Frasco" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Fecha_Entrega" Type="datetime" Nullable="false" />
+    <Property Name="Fecha_Finalizacion" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Paciente">
+    <Key>
+      <PropertyRef Name="Id_Paciente" />
+    </Key>
+    <Property Name="Id_Paciente" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="Apellido" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="Edad" Type="int" Nullable="false" />
+    <Property Name="Direccion" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Vacuna">
+    <Key>
+      <PropertyRef Name="Id_Vacuna" />
+    </Key>
+    <Property Name="Id_Vacuna" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Fecha" Type="datetime" Nullable="false" />
+    <Property Name="Id_Paciente" Type="bigint" Nullable="false" />
+    <Property Name="Cantidad" Type="decimal" Nullable="false" Precision="6" Scale="2" />
+    <Property Name="Descripcion" Type="nvarchar" Nullable="false" MaxLength="100" />
+  </EntityType>
+  <Association Name="FK_Vacuna_Paciente">
+    <End Role="Paciente" Type="BDControlVacunaModel.Store.Paciente" Multiplicity="1" />
+    <End Role="Vacuna" Type="BDControlVacunaModel.Store.Vacuna" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Paciente">
+        <PropertyRef Name="Id_Paciente" />
+      </Principal>
+      <Dependent Role="Vacuna">
+        <PropertyRef Name="Id_Paciente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

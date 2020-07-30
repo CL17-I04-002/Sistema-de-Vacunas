@@ -1,0 +1,20 @@
+﻿ControlVacuna.UI
+
+
+winexe
+C#
+.cs
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\obj\Debug\
+ControlVacuna.UI
+none
+false
+DEBUG;TRACE
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.UI\App.xaml
+1470456601
+
+222052837743
+23-662786392
+BuscarAdministrador.xaml;BuscarFrasco.xaml;BuscarPaciente.xaml;BuscarVacuna.xaml;FrmAgregarFrasco.xaml;FrmAgregarPaciente.xaml;FrmAgregarVacuna.xaml;FrmModElimPaciente.xaml;FrmModElimUsuario.xaml;FrmModElimVacuna.xaml;FrmModificarElimarFrasco.xaml;Login.xaml;Menu.xaml;Registro.xaml;
+
+False
+

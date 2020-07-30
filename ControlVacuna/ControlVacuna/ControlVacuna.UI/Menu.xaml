@@ -1,0 +1,128 @@
+﻿<controls:MetroWindow x:Class="ControlVacuna.UI.Menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"  
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:behaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
+        Title="Menu" Background="White"  Height="669.936" Width="1364.738" WindowStartupLocation="CenterScreen" WindowState="Maximized" Icon="imgs/Medicina.png">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/FlatButton.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.AnimatedTabControl.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.AnimatedSingleRowTabControl.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/FlatButton.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/FlatSlider.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
+                <!--<ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Brown.xaml" />-->
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid RenderTransformOrigin="0.483,0.487">
+        <controls:Tile x:Name="btnAyuda" Background="DarkCyan"  Margin="1132,12,45,477" Height="Auto" Width="Auto" Title="¿Ayuda?" TitleFontSize="20" Click="btnAyuda_Click">
+            <controls:Tile.Effect>
+                <DropShadowEffect/>
+            </controls:Tile.Effect>
+            <Image Source="imgs/ayuda.png" Height="141" RenderTransformOrigin="0.537,0.356"/>
+        </controls:Tile>
+        <controls:Tile Style="{DynamicResource MetroCircleButtonStyle}" x:Name="btnSalir" Background="DarkCyan" Margin="1106,462,45,24" Height="Auto" Width="Auto" Title="Salir" Click="Tile_Click_1">
+            <controls:Tile.Effect>
+                <DropShadowEffect/>
+            </controls:Tile.Effect>
+            <Image Source="imgs/Logout.png" Height="141" RenderTransformOrigin="0.537,0.356" Width="153"/>
+        </controls:Tile>
+        <controls:Tile x:Name="btnModificarVcuna" Background="DarkCyan"  Margin="523,465,578,24" Height="Auto" Width="Auto" Title="Mofificar/Eliminar vacuna" Click="btnModificarVcuna_Click">
+            <controls:Tile.Effect>
+                <DropShadowEffect/>
+            </controls:Tile.Effect>
+            <Image Source="imgs/Injection2.png" Height="163" RenderTransformOrigin="0.537,0.356"/>
+        </controls:Tile>
+        <controls:Tile x:Name="btnAgregarVacuna" Background="DarkCyan"  Margin="523,238,579,251" Height="Auto" Width="Auto" Title="Agregar Vacuna" Click="btnAgregarVacuna_Click">
+            <controls:Tile.Effect>
+                <DropShadowEffect/>
+            </controls:Tile.Effect>
+            <Image Source="imgs/add.png" Height="136" RenderTransformOrigin="0.537,0.356" Width="124"></Image>
+        </controls:Tile>
+        <controls:Tile x:Name="btnAgregarFrasco" Background="DarkCyan"  Margin="820,238,282,26" Height="Auto" Width="Auto" Title="Agregar Frasco" Click="btnAgregarFrasco_Click">
+            <controls:Tile.Effect>
+                <DropShadowEffect/>
+            </controls:Tile.Effect>
+            <Image Source="imgs/AgregarFrasco.png" Height="136" RenderTransformOrigin="0.537,0.356" Width="124"/>
+        </controls:Tile>
+        <controls:Tile x:Name="btnEliModFrasco" Background="DarkCyan"  Margin="824,10,282,479" Height="Auto" Width="Auto" Title="Modificar/Eliminar frasco" Click="btnEliModFrasco_Click">
+            <controls:Tile.Effect>
+                <DropShadowEffect/>
+            </controls:Tile.Effect>
+            <Image Source="imgs/frasco.png" Height="136" RenderTransformOrigin="0.537,0.356" Width="124"/>
+        </controls:Tile>
+        <controls:Tile x:Name="btnBuscarFrasco" Background="DarkCyan"  Margin="1132,238,45,266" Height="Auto" Width="Auto" Title="Buscar frasco" Click="btnBuscarFrasco_Click">
+            <controls:Tile.Effect>
+                <DropShadowEffect/>
+            </controls:Tile.Effect>
+            <Image Source="imgs/encontrarFrasco.png" Height="136" RenderTransformOrigin="0.537,0.356" Width="124"/>
+        </controls:Tile>
+        <controls:Flyout x:Name="FlyRegistrar" Width="347" Foreground="White" Header="Registrar usuario" Position="Right" Theme="Light">
+            <controls:Flyout.Background>
+                <SolidColorBrush Color="#FF252424" Opacity="0.8">
+                </SolidColorBrush>
+            </controls:Flyout.Background>
+            <Canvas>
+                <Image Stretch="Fill" Source="imgs/registrar.png" Canvas.Left="56" Canvas.Top="-16" Height="196" Width="234"/>
+                <TextBox x:Name="txtNombre" Canvas.Left="41" controls:TextBoxHelper.Watermark="Escriba nombre" VerticalAlignment="Top" Width="277" Canvas.Top="166"/>
+                <TextBox x:Name="txtApellido" Canvas.Left="41" controls:TextBoxHelper.Watermark="Escriba apellido" VerticalAlignment="Top" Width="277" Canvas.Top="210"/>
+                <TextBox x:Name="txtNick" Canvas.Left="41" controls:TextBoxHelper.Watermark="Escriba nick" VerticalAlignment="Top" Width="277" Canvas.Top="255"/>
+                <PasswordBox x:Name="txtPass"  Canvas.Left="41" controls:TextBoxHelper.Watermark="Escriba Contraseña" Canvas.Top="299" Height="20" Width="277"/>
+                <PasswordBox x:Name="txtConfirmar" Canvas.Left="41" controls:TextBoxHelper.Watermark="Repita contraseña" Canvas.Top="344" Height="20" Width="277"/>
+                <Button x:Name="btnAgregarAdmin" Content="Agregar usuario" Canvas.Left="41" Canvas.Top="420" Height="38" Width="277" FontSize="12" Click="btnAgregarAdmin_Click"/>
+            </Canvas>
+        </controls:Flyout>
+
+        <controls:Tile x:Name="btnRegistrar" Background="DarkCyan"  Margin="25,10,1150,479" Height="Auto" Width="Auto" Title="Registrarse" TitleFontSize="20" Click="btnRegistrar_Click">
+            <controls:Tile.Effect>
+                <DropShadowEffect/>
+            </controls:Tile.Effect>
+            <Image Source="imgs/registrar.png" Height="141" RenderTransformOrigin="0.537,0.356"/>
+        </controls:Tile>
+        <controls:Tile x:Name="btnBuscarVacuna" Background="DarkCyan"  Margin="248,465,853,24" Height="Auto" Width="Auto" Title="Buscar Vacuna" Click="btnBuscarVacuna_Click">
+            <controls:Tile.Effect>
+                <DropShadowEffect/>
+            </controls:Tile.Effect>
+            <Image Source="imgs/find.png" Height="136" RenderTransformOrigin="0.537,0.356" Width="118"/>
+        </controls:Tile>
+        <controls:Tile x:Name="btnBuscarUsuario" Background="DarkCyan"  Margin="248,238,853,251" Height="Auto" Width="Auto" Title="Buscar Usuario" Click="btnBuscarUsuario_Click">
+            <controls:Tile.Effect>
+                <DropShadowEffect/>
+            </controls:Tile.Effect>
+            <Image Source="imgs/find_user.png" Height="136" RenderTransformOrigin="0.537,0.356" Width="118"/>
+        </controls:Tile>
+        <controls:Tile x:Name="btnModificarAdministrador" Background="DarkCyan"  Margin="248,10,853,479" Height="Auto" Width="Auto" Title="Modificar/Eliminar Usuario" Click="btnModificarAdministrador_Click">
+            <controls:Tile.Effect>
+                <DropShadowEffect/>
+            </controls:Tile.Effect>
+            <Image Source="imgs/admin.png" Height="136" RenderTransformOrigin="0.537,0.356" Width="153"/>
+        </controls:Tile>
+        <controls:Tile x:Name="btnAgregarPaciente" Background="DarkCyan"  Margin="25,465,1150,24" Height="Auto" Width="Auto" Title="Ag. Paciente" TitleFontSize="20" Click="btnAgregarPaciente_Click">
+            <controls:Tile.Effect>
+                <DropShadowEffect/>
+            </controls:Tile.Effect>
+            <Image Source="imgs/Agregar-paciente.png" Height="125" RenderTransformOrigin="0.537,0.356"/>
+        </controls:Tile>
+        <controls:Tile x:Name="btnModificarPaciente" Background="DarkCyan"  Margin="523,12,578,477" Height="Auto" Width="Auto" Title="Modificar/Eliminar Paciente" Click="btnModificarPaciente_Click">
+            <controls:Tile.Effect>
+                <DropShadowEffect/>
+            </controls:Tile.Effect>
+            <Image Source="imgs/Paciente.png" Height="136" RenderTransformOrigin="0.537,0.356" Width="153"/>
+        </controls:Tile>
+        <controls:Tile x:Name="btnBuscarPaciente" Background="DarkCyan"  Margin="25,240,1150,249" Height="Auto" Width="Auto" Title="Busc. Paciente" TitleFontSize="20" Click="btnBuscarPaciente_Click">
+            <controls:Tile.Effect>
+                <DropShadowEffect/>
+            </controls:Tile.Effect>
+            <Image Source="imgs/Encontrar-paciente.png" Height="125" RenderTransformOrigin="0.537,0.356"/>
+        </controls:Tile>
+
+    </Grid>
+</controls:MetroWindow>

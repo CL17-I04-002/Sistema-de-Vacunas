@@ -1,0 +1,16 @@
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.LogicaDeNegocio\bin\Debug\ControlVacuna.LogicaDeNegocio.dll
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.LogicaDeNegocio\bin\Debug\ControlVacuna.LogicaDeNegocio.pdb
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.LogicaDeNegocio\bin\Debug\ControlVacuna.AccesoDatos.dll
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.LogicaDeNegocio\bin\Debug\EntityFramework.dll
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.LogicaDeNegocio\bin\Debug\ControlVacuna.AccesoDatos.pdb
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.LogicaDeNegocio\bin\Debug\EntityFramework.xml
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.LogicaDeNegocio\obj\Debug\ControlVacuna.LogicaDeNegocio.csprojResolveAssemblyReference.cache
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.LogicaDeNegocio\obj\Debug\ControlVacuna.LogicaDeNegocio.dll
+C:\Users\DANIEL\Desktop\Control de Vacunas\ControlVacuna\ControlVacuna.LogicaDeNegocio\obj\Debug\ControlVacuna.LogicaDeNegocio.pdb
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.LogicaDeNegocio\bin\Debug\ControlVacuna.LogicaDeNegocio.dll
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.LogicaDeNegocio\bin\Debug\ControlVacuna.LogicaDeNegocio.pdb
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.LogicaDeNegocio\bin\Debug\ControlVacuna.AccesoDatos.dll
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.LogicaDeNegocio\bin\Debug\ControlVacuna.AccesoDatos.pdb
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.LogicaDeNegocio\obj\Debug\ControlVacuna.LogicaDeNegocio.csprojResolveAssemblyReference.cache
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.LogicaDeNegocio\obj\Debug\ControlVacuna.LogicaDeNegocio.dll
+C:\Users\DANIEL\Documents\Aplicaciones 2015\Control de Vacunas\ControlVacuna\ControlVacuna.LogicaDeNegocio\obj\Debug\ControlVacuna.LogicaDeNegocio.pdb

@@ -1,0 +1,56 @@
+﻿<controls:MetroWindow x:Class="ControlVacuna.UI.BuscarVacuna"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"  
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:behaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
+        Title="Buscar Vacuna" Background="DeepSkyBlue" WindowStartupLocation="CenterScreen" Height="592.05" Width="821.5" Loaded="MetroWindow_Loaded_1" Icon="imgs/find.png">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/FlatButton.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.AnimatedTabControl.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.AnimatedSingleRowTabControl.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/FlatButton.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/FlatSlider.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
+                <!--<ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Brown.xaml" />-->
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid RenderTransformOrigin="0.528,0.565">
+        <Label Content="Fecha de vacuna:" FontSize="15" HorizontalAlignment="Left" Margin="73,72,0,0" VerticalAlignment="Top" Width="131">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+
+        <DatePicker x:Name="fechaVacunaPicker"  HorizontalAlignment="Left" Height="23" Margin="286,78,0,0"  VerticalAlignment="Top" Width="258" SelectedDateChanged="FechaVacunaPicker_OnSelectedDateChanged" PreviewKeyDown="fechaVacunaPicker_PreviewKeyDown" >
+            <DatePicker.Effect>
+                <DropShadowEffect/>
+            </DatePicker.Effect>
+        </DatePicker>
+
+        <Button x:Name="btnBuscarVacuna" Content="" HorizontalAlignment="Left" Margin="638,76,0,0" VerticalAlignment="Top" Width="76" Height="28">
+            <Button.Background>
+                <ImageBrush ImageSource="imgs/encontrar.png"/>
+            </Button.Background>
+        </Button>
+        <DataGrid x:Name="dgVacuna" AutoGenerateColumns="False" HorizontalAlignment="Left" Margin="148,241,0,0" VerticalAlignment="Top" Height="208" Width="554" MouseDoubleClick="dgVacuna_MouseDoubleClick">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Id_Vacuna}" Header="Id_Vacuna" Width="91"/>
+                <DataGridTextColumn Binding="{Binding Fecha, StringFormat=\{0:dd/MM/yyyy\}}" Header="Fecha" Width="118"/>
+                <DataGridTextColumn Binding="{Binding Paciente.Nombre}"  Header="Paciente" Width="100"/>
+                <DataGridTextColumn Binding="{Binding Cantidad}"  Header="Cantidad" Width="auto"/>
+                <DataGridTextColumn Binding="{Binding Descripcion}" Header="Descripción" Width="170"/>
+            </DataGrid.Columns>
+
+        </DataGrid>
+
+    </Grid>
+</controls:MetroWindow>
